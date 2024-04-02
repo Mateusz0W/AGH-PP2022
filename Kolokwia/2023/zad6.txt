@@ -1,0 +1,4 @@
+nazwij zdefiniowane zmiennoprzecinkowych
+
+a) int(*(*f2)(double))(float);
+b) int *(*(*(*f3)(int))(double))(float);

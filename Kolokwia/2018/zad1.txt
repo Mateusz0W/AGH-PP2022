@@ -1,0 +1,13 @@
+Dana jest nastepująca deklaracja tablicy d1_wierszy[];
+
+const int dl_wierszy[]={3,4,1,6,2};
+
+wartości zawarte w tablicy określają długość kolejnych wierszy dwuwymiarowej tablicy.
+Proszę utworzyć dwuwymiarową tablicę o zminennej długości wierszy proszę wypełnić każdy z wierszy
+wartościami odpowiadającej jego długości
+
+3 3 3
+4 4 4 4
+1
+6 6 6 6 6 6
+2 2

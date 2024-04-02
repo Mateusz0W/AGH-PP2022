@@ -1,0 +1,11 @@
+Mamyzdefiniowane trzy funkcje 
+int count (const void *,const void *);
+int max (const void *,const void *);
+int min(const void *,const void *);
+
+uzupełnij poniższe inicjalizacje
+
+....={max(NULL,NULL),min(NULL,NULL),count(NULL,NULL)};
+....={"max","min","count"};
+....={max,min,count};
+....={'c','o','u','n','t'};

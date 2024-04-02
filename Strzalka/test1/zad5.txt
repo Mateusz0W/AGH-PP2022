@@ -1,0 +1,3 @@
+Jedna z funkcji z biblioteki standardowej C ma prototyp
+size_t strlen ( const char *str);
+Opisz co ozancza słow kluczowe const użyte przy deklaracji parametru funkcji i uzasadnij dlaczego zostało wykorzystane

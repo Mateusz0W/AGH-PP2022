@@ -1,0 +1,10 @@
+w pliku binarnym dane.dat zapisana jest pewna iolść struktur
+
+struct dane{
+    int tab_1[10];
+    float tab_2[5];
+    char tab_3[12];
+};
+Proszę napisać funkcje która utworzy , wypełni danymi z pliku i zwróci tablicę dwuwymiarową o 2 wierszach
+i 3 kolumnach struktur struct dane. argumentem funkcji ma być nazwa pliku . Proszę napisać wywołanie
+funkcji dla pliku dane.dat

@@ -1,0 +1,7 @@
+a) Proszę napisać procedurę która umożliwi zapis jednowymiarowej tablicy dowolnego typu do pliku binarnego
+Nazwa pliku ma być jednym z argumentów pocedury
+b) Proszę napisać wywołanie dla tablic:
+
+struct point {double x,y,z;char label[4];}tab2[13]={};
+
+double *TAB =realloc(NULL,17*sizeof(*TAB));

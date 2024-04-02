@@ -1,0 +1,16 @@
+Dane są następujące deklaracje
+
+#define N 4
+#define M 3
+
+int T[N][M]={1,3,5,8,0,2,7,12,9,4,6,10};
+
+wynik polecenia :
+    printf("T[0][0]=%d &T[0][0]=%p",T[0][0],&T[0][0]);
+jest następujący
+    T[0][0]=1 &T[0][0]=0x7ffd260af1d0
+
+Proszę uzupełnić specyfikatory w wywołaniu funkcji printf() oraz wypisać wynik przyjmując
+sizeof(int)=4
+
+printf("%,%,%,%,%,%,%",T[0]+1,T+2,*(T+1),*(T[0]+2),*T,**T+1,*(T+2)+2);

@@ -1,0 +1,12 @@
+Dana jest struktura struct point oraz tablica TAB
+
+struct point {double x,y,z; char label[4];};
+struct point TAB[10][7];
+
+a) należy napisać fragmenty programu które pozwolą wczytać liczbę rzeczywistą ze standardowego wejścia
+i sprawdzić w krórym wierszu tablicy TAB wczytana wartość występuje w polu z (należy wykorzystać qsort +odpowiedni komparator ,
+bsearch + odpowiedni komparator)
+
+b) należy napisać fragmenty programu które pozwolą wczytać string ze standardowego wejścia
+i sprawdzić czy występuje on w polu label w tablicy TAB wczytana wartość występuje w polu z (należy wykorzystać qsort +odpowiedni komparator ,
+bsearch + odpowiedni komparator)

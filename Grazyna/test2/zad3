@@ -1,0 +1,21 @@
+hello: hw_hello.o hw_power.o hw_main.o
+    gcc hw_hello.o hw_power.o hw_main.o -o hello -lm
+hw_main.o: hw_defs.h hw_hello.h hw_power.h
+    gcc -c -Wall hw_main.c
+hw_hello.o: hw_hello.c hw defs.h
+    gcc -c -Wall hw_hello.c
+hw_power.o: hw_power.c hw_defs.H
+    gcc -c -Wall hw_power.c -lm
+
+na dysku w katalogu roboczym(lokalnym) zapisane mamy pliki:
+hw_defs.h
+hw_hello.h
+hw_hello.c
+hw_power.c
+hw_main.c
+
+jakie pliki pojawią się po wykonaniu polecenia make
+
+Jaki będzie efekt wykonania następującej sekwencji komend -które pliki zostaną ponownie wygenerowane:
+touch hw_defs.h
+make

@@ -1,0 +1,1 @@
+ printf("\n%d %d\n ",rows,rows_new);

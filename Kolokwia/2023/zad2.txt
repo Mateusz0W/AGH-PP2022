@@ -1,0 +1,6 @@
+W programie mamy zdefiniowaną procedurę wypisującą wierszami tablicę dwuwymiarową 
+void proc(float T[][5],int rows_count);
+
+Przy pomocy funkcji realloc proszę zaalokować tablicę dwuwymiarową liczb zmiennoprzecinkowych
+3 wiersze 5 kolumn tak aby można było ja wypisać procedurą proc. Napisać wywołanie proc dla utworzonej
+tablicy , a na koniec fragment kodu który dokona zwolnienia pamięci

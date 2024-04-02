@@ -1,0 +1,2 @@
+zapisz prototyp funkcji , która zwraca wskaźnik do wskaźnika do wskaźnika na double oraz przyjmuje tablicę trójwymiarową o
+rozmiarze 12 na 3 na 4 typu unsigned int
